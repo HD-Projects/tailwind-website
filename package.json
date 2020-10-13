@@ -1,0 +1,35 @@
+{
+  "name": "tailwind-website",
+  "version": "0.0.0",
+  "description": "The tailwind CSS version of the HD Projects website(hopefully)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HD-Projects/tailwind-website.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwind",
+    "labs",
+    "tailwind",
+    "css",
+    "css",
+    "html",
+    "hd",
+    "projects",
+    "hd",
+    "projects"
+  ],
+  "author": "ad101-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HD-Projects/tailwind-website/issues"
+  },
+  "homepage": "https://github.com/HD-Projects/tailwind-website#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.1"
+  }
+}
