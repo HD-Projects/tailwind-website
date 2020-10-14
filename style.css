@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+.link {
+    @apply underline font-semibold;
+}
+
+.link:hover, .link:focus, .link:focus {
+    @apply no-underline font-bold;
+}
+
+.btn {
+    @apply text-gray-300 rounded-md p-4;
+}
+
+@tailwind utilities;
