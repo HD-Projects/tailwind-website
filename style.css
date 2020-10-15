@@ -14,4 +14,98 @@
     @apply text-gray-300 rounded-md p-4;
 }
 
+.footer-link {
+    @apply p-2 bg-blue-500 shadow rounded text-gray-200 m-2;
+}
+
+.footer-link:hover {
+    @apply shadow-md;
+}
+
+.menu-link {
+    @apply no-underline;
+}
+
+/* Cards */
+
+.cards {
+    @apply m-auto my-4 w-3/4 relative;
+}
+
+.card h1 {
+    @apply text-xl font-semibold text-center;
+}
+
+.card {
+    @apply rounded-lg shadow-lg p-10 inline-block max-w-xs m-2;
+}
+
+.card img {
+    @apply h-16 m-auto rounded-full;
+}
+
+.card h1 {
+    @apply p-4;
+}
+
+/* End Cards */
+
+/* Gray Cards */
+
+.cards.gray-cards .card {
+    @apply bg-gray-400;
+}
+
+.cards.gray-cards .card h1 {
+    @apply text-gray-900;
+}
+
+/* End Gray Cards */
+
+/* Footer */
+
+.footer {
+    @apply px-4 py-8 w-full shadow-xl bg-gradient-to-r from-orange-500 via-red-600 to-blue-600;
+}
+
+.footer .left {
+    @apply inline;
+}
+
+.footer .right {
+    @apply text-gray-900 text-sm px-2 inline;
+}
+
+.footer .left a {
+    @apply block text-gray-900 font-thin;
+}
+
+@screen sm {
+    .footer .left {
+        @apply float-none;
+    }
+
+    .footer .right {
+        @apply float-none;
+    }
+}
+
+@screen md {
+    .footer .left {
+        @apply float-left;
+    }
+
+    .footer .right {
+        @apply float-right;
+    }
+
+    .footer .left a {
+        @apply inline px-3;
+    }
+
+    .footer .left a:hover {
+        @apply underline text-gray-100;
+    }
+}
+
 @tailwind utilities;

@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
@@ -8,11 +10,13 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
-      backgroundImage: theme => ({
-        "version-control": "url('vc.jpeg')",
-      })
+      backgroundImage: function backgroundImage(theme) {
+        return {
+          "version-control": "url('vc.jpeg')"
+        };
+      }
     }
   },
   variants: {},
   plugins: []
-}
+};

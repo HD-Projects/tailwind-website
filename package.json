@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "postcss style.css -o style.compile.css",
-    "watch": "postcss style.css -o style.compile.css --watch"
+    "watch": "postcss style.css -o public/style.compile.css --watch"
   },
   "repository": {
     "type": "git",
