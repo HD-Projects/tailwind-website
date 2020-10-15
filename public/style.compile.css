@@ -657,6 +657,7 @@ video {
 
 .cards {
   margin: auto;
+  text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
   width: 75%;
@@ -684,6 +685,7 @@ video {
   height: 4rem;
   margin: auto;
   border-radius: 9999px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
 .card h1 {
@@ -707,6 +709,56 @@ video {
 }
 
 /* End Gray Cards */
+
+/* Gray Cards */
+
+.cards.gray-cards .card {
+  --bg-opacity: 1;
+  background-color: #cbd5e0;
+  background-color: rgba(203, 213, 224, var(--bg-opacity));
+}
+
+.cards.gray-cards .card h1 {
+  --text-opacity: 1;
+  color: #1a202c;
+  color: rgba(26, 32, 44, var(--text-opacity));
+}
+
+/* End Gray Cards */
+
+/* Green Gradient Cards */
+
+.cards.green-gradient-cards .card {
+  background-image: linear-gradient(to top right, var(--gradient-color-stops));
+  --gradient-from-color: #38a169;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(56, 161, 105, 0));
+  --gradient-to-color: #5a67d8;
+}
+
+.cards.green-gradient-cards .card h1 {
+  --text-opacity: 1;
+  color: #1a202c;
+  color: rgba(26, 32, 44, var(--text-opacity));
+}
+
+/* End Green Gradient Cards */
+
+/* Orange Gradient Cards */
+
+.cards.orange-gradient-cards .card {
+  background-image: linear-gradient(to top right, var(--gradient-color-stops));
+  --gradient-from-color: #dd6b20;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(221, 107, 32, 0));
+  --gradient-to-color: #38a169;
+}
+
+.cards.orange-gradient-cards .card h1 {
+  --text-opacity: 1;
+  color: #1a202c;
+  color: rgba(26, 32, 44, var(--text-opacity));
+}
+
+/* End Orange Gradient Cards */
 
 /* Footer */
 

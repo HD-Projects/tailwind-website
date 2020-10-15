@@ -29,7 +29,7 @@
 /* Cards */
 
 .cards {
-    @apply m-auto my-4 w-3/4 relative;
+    @apply m-auto  text-center my-4 w-3/4 relative;
 }
 
 .card h1 {
@@ -41,7 +41,7 @@
 }
 
 .card img {
-    @apply h-16 m-auto rounded-full;
+    @apply h-16 m-auto rounded-full shadow-2xl;
 }
 
 .card h1 {
@@ -61,6 +61,42 @@
 }
 
 /* End Gray Cards */
+
+/* Gray Cards */
+
+.cards.gray-cards .card {
+    @apply bg-gray-400;
+}
+
+.cards.gray-cards .card h1 {
+    @apply text-gray-900;
+}
+
+/* End Gray Cards */
+
+/* Green Gradient Cards */
+
+.cards.green-gradient-cards .card {
+    @apply bg-gradient-to-tr from-green-600 to-indigo-600;
+}
+
+.cards.green-gradient-cards .card h1 {
+    @apply text-gray-900;
+}
+
+/* End Green Gradient Cards */
+
+/* Orange Gradient Cards */
+
+.cards.orange-gradient-cards .card {
+    @apply bg-gradient-to-tr from-orange-600 to-green-600;
+}
+
+.cards.orange-gradient-cards .card h1 {
+    @apply text-gray-900;
+}
+
+/* End Orange Gradient Cards */
 
 /* Footer */
 
