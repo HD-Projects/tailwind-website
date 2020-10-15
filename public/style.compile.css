@@ -677,6 +677,7 @@ video {
   display: inline-block;
   max-width: 20rem;
   margin: 0.5rem;
+  vertical-align: text-top;
 }
 
 .card img {

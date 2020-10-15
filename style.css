@@ -37,7 +37,7 @@
 }
 
 .card {
-    @apply rounded-lg shadow-lg p-10 inline-block max-w-xs m-2;
+    @apply rounded-lg shadow-lg p-10 inline-block max-w-xs m-2 align-text-top;
 }
 
 .card img {
